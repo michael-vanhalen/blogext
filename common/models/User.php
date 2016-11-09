@@ -165,11 +165,6 @@ class User extends UserGii implements IdentityInterface
         $this->password_reset_token = null;
     }
 
-//    public function getComments()
-//    {
-//        return self::hasMany(Comment::className(), ['user_id' => 'id']);
-//    }
-
     public function getAuth()
     {
         return self::hasMany(Auth::className(), ['user_id' => 'id']);
