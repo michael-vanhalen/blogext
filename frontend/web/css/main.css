@@ -1,0 +1,43 @@
+img {
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.article {
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.article:hover {
+    background-color: rgba(0, 0, 0, 0.16);
+}
+
+.categories {
+    padding: 5px 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#view-text {
+    float: left;
+}
+
+#rating {
+    float: left;
+}
+
+#views {
+    float: right;
+    padding: 5px;
+    color: #fcfaff;
+    background-color: #494991;
+    border-radius: 10px;
+}
+
+#comments {
+    margin-top: 100px;
+}
